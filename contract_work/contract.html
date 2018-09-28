@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Contract Work Means Work for You</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Contract Work Means Work For you</h1>
+					<h3>How to make your project sustainable after the contract is over</h3>
+					<p>
+						<small><a href="mailto:bobbi_fox@harvard.edu">Bobbi Fox</a>, Library Technology Services, Harvard University</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Key Points</h2>
+					<ul>
+					<!-- <li class="fragment" style="clear:both"><img src="kid_crying.jpg" style="float:left;vertical-align:bottom"/>Frustration avoidance</li> -->
+					<li class="fragment fade-in" style="clear:both; list-style-position:inside;list-style-image:url(kid_crying.jpg)"> Frustration avoidance</li>
+					<li class="fragment" style="clear:both;list-style-position:inside;list-style-image:url(close-up-door-key-no.png)" >There's no such thing as a turn-key application </li>
+					<li class="fragment"style="clear:both;list-style-position:inside;list-style-image:url(never_enough_time.png)">It always takes more time than you expect</li>
+					<li class="fragment"style="clear:both;list-style-position:inside;list-style-image:url(adult-brainstorming-business.png)">You want to minimize on-going support work</li>
+
+					</ul>
+				</section>
+
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Who am I to be talking to you?</h2>
+						<p>As a Sr. Digital Software Engineer working for the Harvard Library, I have lots of experience:</p>
+						<ul>
+						<li>as a contractor;</li>
+						<li>as a project team lead with contractors on my team;</li>
+						<li>as a developer who also has to be a maintainer/enhancer of contracted-for code</li>
+						</ul>
+						<br>
+						<p><strong>Caveat:</strong> don’t assume I’m talking about Harvard in my examples<span class="fragment fade-right" style="font-type:italic; font-color:red">, don’t assume I’m not.</span></p>
+
+					</section>
+					<section>
+						<h3>I can’t believe I’m presenting after Calvin Mah <em>again</em></h3>
+					</section>
+					<section>
+						<h3>But, personally, I don't think I look a day older than<br/>
+						<span style="font-style:italic">&quot;grandmother of a 17-year-old&quot;</span></h3>
+					</section>
+
+				</section>
+
+				<section>
+					<h2>What I’m going to talk about</h2>
+					<ul>
+						<li class="fragment fade">What is &quot;contract work&quot;?</li>
+						<li class="fragment fade">Pre-planning</li>
+						<li class="fragment fade">Defining the contract</li>
+						<li class="fragment fade">While the contractor is on the job</li>
+						<li class="fragment fade">Getting closure <span class="fragment fade-right"> (maybe)</span></li>
+
+					</ul>
+				</section>
+
+				<section>
+					<h2>What is &quot;contract work&quot;?</h2>
+					<!-- Definition of a “contractor”: an individual (Independent consultant or “term” employee) or a group (outside vendor, or another dept at your own institution). -->
+					<p>A contractor may be:</p>
+					<ul>
+					<li>Working alongside your own developers, or working alone</li>
+					<li>Upgrading/enhancing an already-existing application</li>
+					<li>Creating an entirely new application</li>
+					</ul>
+				</section>
+
+				<section data-background-image="hold_up_your_end.jpg">
+					<h2 style="color:#383D37">Pre-planning</h2>
+					<p class="fragment fade-in" style="color:#383D37">There's No Such Thing As a Turn-key Application</p>
+
+					<h3 class="fragment" style="color:#000000">Work with your IT department!!!</h3>
+				<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					</section>
+
+				<section>
+					<h3> Pre-planning: Talking  to your IT department</h3>
+					<ul>
+					<li>Will the operations people be willing/able to support the project?</li>
+					<li>Are there development resources to handle updates/upgrades?</li>
+					<li>What technologies does IT support (language, hardware, operating system, deployment setup/system configurations)?</li>
+					<li>Who will provide end-user support?</li>
+					<li>Who &quot;owns&quot; the project going forward?(continuity)</li>
+
+					</ul>
+				</section>
+				<section>
+					<h2>Defining the Contract</h2>
+					<p> More than just specifying software features!</p>
+				</section>
+				<section>
+				<h3>Think about</h3>
+				<ul>
+					<li>Minimum Viable Product</li>
+					<li>Technologies (language, hardware, operating system, deployment setup/system configurations)</li>
+					<li>Accessibility <span class="fragment fade-right" style="font-style:italic">...and I don't mean just WCAG 2.0</span></li>
+					<li>Version Control</li>
+					<li>Configuration</li>
+					<li>Tests</li>
+					<li>Logging</li>
+					<li>DOCUMENTATION</li>
+				</ul>
+				</section>
+				<section>
+					<h3>What you should expect from the contractor</h3>
+					<ul>
+					<li>Good knowledge of, and <span style="color:green">WILLINGNESS TO WORK IN</span>, the language(s) the work is to be done in</li>
+					<li>If using Open Source, or adding on to an already-built application
+					<ul>
+						<li class="fragment">Understanding that these applications may *also* get version updates, and coding accordingly</li>
+					</ul></li>
+					<li>Understanding of any customization hooks that already exist</li>
+					<li>Willingness to expose not-yet-perfect code for review, if appropriate</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>While the contractor is on the job</h3>
+					<ul>
+					<li>Periodic code reviews: always a good idea</li>
+					<li>Weekly or bi-weekly check-ins</li>
+					<li>Demos of work in progress</li>
+					<li>Periodic reviews of documentation</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Uh-oh</h2>
+					<ul class="fragment">
+						<li>Early termination</li>
+						<li>Running out of time/money</li>
+					</ul>
+				</section>
+				<section>
+				<section>
+									<h2>Getting closure</h2>
+									<ul>
+										<li>There’s no such thing as a turn-key application</li>
+										<li>Continuing the project</li>
+									</ul>
+				</section>
+				<section>
+					<div>
+					<div width="50%" style="float:left"><img src="dave.jpg"/></div>
+					<div><h2>This is Dave</h2><h3>We love Dave</h3></div>
+					</div>
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+				</section>
+
+
+
+				<section >
+					<h1>Thank you!</h1>
+					<p style="text-align: right;">
+						<a href="mailto:bobbi_fox@harvard.edu">bobbi_fox@harvard.edu</a> <br/>
+						 <a href="https://github.com/bobbi-SMR">bobbi_SMR</a> on GitHub<br/>
+						 <a href="https://twitter.com/bobbi_fox_SMR">@bobbi_fox_SMR</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				backgroundTransition: 'fade',
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
