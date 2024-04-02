@@ -1,0 +1,3 @@
+[submodule "presentations.github.io"]
+	path = presentations.github.io
+	url = git@github.com:bibliotecaria/presentations.github.io.git
